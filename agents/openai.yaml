@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spoken English Training"
+  short_description: "Practice spoken English through real-life recall and small talk"
+  default_prompt: "Use $spoken-english-training-skill to guide me through today’s spoken English practice using a real experience."
