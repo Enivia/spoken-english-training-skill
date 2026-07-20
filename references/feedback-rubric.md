@@ -29,18 +29,29 @@ Label personal style preferences as alternatives.
 - Keep the original facts, attitude, and degree of certainty.
 - Stay near the learner's current vocabulary and sentence length.
 - Prefer contractions and common spoken collocations where natural.
-- Supply one default natural rewrite. Add a second version only when it teaches a meaningfully different register or pattern.
+- Withhold the complete natural rewrite until the learner has attempted the requested revision. Then supply one default natural rewrite. Add a second version only when it teaches a meaningfully different register or pattern.
 - Extract 2–4 chunks that can transfer to other topics; favor phrases over isolated words.
 
 ## Response shape
 
-Adapt the headings to the learner's language, but keep this order:
+When the learner's attempt needs changes, adapt the headings to their language and split feedback into two turns.
+
+First feedback turn:
 
 1. **What worked** — one specific sentence.
 2. **Adjustments** — up to three labeled `original → revision` items with short reasons.
-3. **Natural version** — preserve meaning and difficulty.
-4. **Reusable chunks** — give a short meaning or usage note.
-5. **Your turn** — one recall or transfer prompt.
+3. **Reusable chunks** — give a short meaning or usage note.
+4. **Your turn** — ask the learner to revise once using the adjustments or chunks.
+
+Do not include a complete corrected answer or **Natural version** in this first turn.
+
+After the learner's revision attempt:
+
+1. Acknowledge one successfully repaired pattern or briefly identify one remaining high-value issue.
+2. **Natural version** — now give one complete answer that preserves meaning and difficulty.
+3. **Your turn** — give the next recall or transfer prompt.
+
+If the original attempt has no essential correction, say so and optionally give a natural alternative without requiring a repair turn.
 
 Example:
 
@@ -51,18 +62,16 @@ Example:
 ❌ I very like it. → I really like it.（very 不能直接修饰 like）
 △ I returned back home. → I went back home.（日常口语更常见）
 
-自然版本：...
-
 口语块：
 - end up doing — 最后做了某事
 - be in the mood for — 想做/想吃某事
 
-轮到你：不看上面的版本，用 end up doing 再说一次。
+轮到你：根据上面两处调整再说一次，并用上 end up doing。
 ```
 
 ## Handle advanced rewrites
 
-Offer a natural spoken version before any deliberately complex transformation. Build complexity with a communicative purpose:
+After any required learner revision, offer a natural spoken version before any deliberately complex transformation. Build complexity with a communicative purpose:
 
 - relative or adverbial clause for context;
 - participial phrase for compression;

@@ -35,18 +35,18 @@ Complete this step when the learner has produced at least one English sentence, 
 
 Read [references/feedback-rubric.md](references/feedback-rubric.md) before correcting or rewriting learner output. Preserve the learner's meaning, personality, and approximate level. Explain briefly in the learner's preferred language and keep examples in English.
 
-Complete this step when the learner can distinguish actual errors from naturalness improvements, has one natural spoken version, and has 2–4 reusable chunks.
+When the attempt needs changes, give only one specific strength, up to three adjustments, 2–4 reusable chunks, and one revision prompt. Do not give or reconstruct the complete natural version yet. Complete this step when the learner can distinguish actual errors from naturalness improvements and has enough guidance to revise the answer.
 
-### 3. Require recall
+### 3. Require repair, then reveal the model
 
-Ask for exactly one immediate retrieval task. Choose one:
+When step 2 identified adjustments, wait for the learner to revise the answer. After that revision attempt, give one complete natural spoken version, then continue with exactly one retrieval task. Choose one:
 
-- retell the idea without looking at the rewrite;
+- retell the idea without looking at the natural version;
 - express the same idea another way;
 - change one detail such as person, place, reason, or time;
 - answer a natural follow-up using one new chunk.
 
-Complete this step when the learner has independently reused at least one corrected pattern or chunk. If they struggle, return one level down the scaffold rather than replacing their whole answer.
+If the first attempt needs no essential adjustment, say so and provide a natural alternative before the retrieval task. If the learner cannot revise, return one level down the scaffold; reveal the model only after they try the scaffold, ask for the model, or cannot continue. Complete this step when the learner has attempted the requested repair, received the complete natural version, and independently reused at least one corrected pattern or chunk.
 
 ### 4. Transfer to conversation
 
