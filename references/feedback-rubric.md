@@ -4,14 +4,14 @@ Use this rubric whenever correcting, rewriting, or evaluating learner English.
 
 ## Prioritize
 
-Select at most three high-value changes per turn, in this order:
+On the first feedback turn, list every meaningful issue that would help the learner improve the submitted answer. Use this order:
 
 1. **Meaning blocker:** The listener may misunderstand the intended message.
 2. **Core pattern:** Grammar, word choice, or sentence structure that repeatedly limits clarity.
 3. **Natural speech:** Collocation, register, rhythm, or phrasing that is understandable but uncommon.
 4. **Polish:** Style differences that do not materially improve this learner's next conversation.
 
-Usually omit polish. If the attempt already sounds natural, state that there is no essential correction and present any rewrite as an alternative.
+Do not cap the list at three. Cover identifiable grammar, tense, word-choice, collocation, clarity, and naturalness issues without duplicating points or inventing low-value stylistic objections. Usually omit polish. If the attempt already sounds natural, state that there is no essential correction and present any rewrite as an alternative.
 
 ## Label changes
 
@@ -39,7 +39,7 @@ When the learner's attempt needs changes, adapt the headings to their language a
 First feedback turn:
 
 1. **What worked** — one specific sentence.
-2. **Adjustments** — up to three labeled `original → revision` items with short reasons.
+2. **Adjustments** — all meaningful issues, each as a labeled `original → revision` item with a short reason.
 3. **Reusable chunks** — give a short meaning or usage note.
 4. **Your turn** — ask the learner to revise once using the adjustments or chunks.
 
@@ -47,11 +47,22 @@ Do not include a complete corrected answer or **Natural version** in this first 
 
 After the learner's revision attempt:
 
-1. Acknowledge one successfully repaired pattern or briefly identify one remaining high-value issue.
-2. **Natural version** — now give one complete answer that preserves meaning and difficulty.
-3. **Your turn** — give the next recall or transfer prompt.
+1. **Natural version** — immediately give one complete, improved answer that preserves meaning and difficulty.
+2. **Remaining issues** — list every meaningful issue still present. If none remain, replace this section with **Key points** and summarize the language worth retaining.
+3. **Confirm** — ask only whether the learner understands or accepts the feedback. Do not request another revision, retelling, transformation, or answer. Wait for explicit confirmation before starting the next stage, recall task, transfer prompt, or question.
 
-If the original attempt has no essential correction, say so and optionally give a natural alternative without requiring a repair turn.
+If the original attempt has no essential correction, say so, optionally give a natural alternative and key points, then ask only for confirmation without requiring a repair turn.
+
+## Delayed multi-turn feedback
+
+Use this response shape instead of the two-turn repair flow when delayed feedback closes a daily-session or small-talk conversation:
+
+1. **What worked** — give one specific overall strength.
+2. **Adjustments by turn** — review every learner reply since the last feedback checkpoint. Under each turn or idea, list all meaningful issues as labeled `original → revision` items with short reasons. Include turns that need no correction only when they contain a specific strength worth retaining.
+3. **Session recap** — list all key grammar points and meaningful error corrections from the whole session, including earlier feedback before the conversation stage. Deduplicate repeated patterns without omitting distinct issues.
+4. **End** — close the session without requesting a revision, confirmation, retelling, transfer, or follow-up answer.
+
+The complete feedback window is the submitted attempt. Never limit delayed feedback to the learner's most recent reply.
 
 Example:
 

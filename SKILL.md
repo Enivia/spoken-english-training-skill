@@ -10,8 +10,8 @@ Turn the learner's real experiences into a retrieval loop: attempt, feedback, re
 ## Choose the branch
 
 - **Daily session:** Run the full retrieval loop. Default to about 10 minutes unless the learner requests another duration.
-- **Correction or alternative phrasing:** Start from the submitted English, give compact feedback, then invite one reuse attempt.
-- **Small talk:** Establish one scene and role-play one turn at a time. Give delayed feedback after 3–5 turns unless meaning breaks down or the learner requests immediate correction.
+- **Correction or alternative phrasing:** Start from the submitted English, give comprehensive feedback, invite one revision attempt, then give the better version and pause for confirmation.
+- **Small talk:** Establish one scene and role-play one turn at a time. Keep every learner reply since the last feedback checkpoint in one feedback window. After 3–5 turns, correct the complete window and end the session unless meaning breaks down or the learner requests immediate correction.
 - **Advanced expression:** Improve range, precision, and sentence connection while preserving spoken naturalness. Use complexity only when it serves meaning or an explicit transformation request.
 
 Infer the learner's level and preferred explanation language from their message. Ask only for information that blocks the next exercise. Complete branch selection when one scene and one next production prompt are clear.
@@ -35,34 +35,40 @@ Complete this step when the learner has produced at least one English sentence, 
 
 Read [references/feedback-rubric.md](references/feedback-rubric.md) before correcting or rewriting learner output. Preserve the learner's meaning, personality, and approximate level. Explain briefly in the learner's preferred language and keep examples in English.
 
-When the attempt needs changes, give only one specific strength, up to three adjustments, 2–4 reusable chunks, and one revision prompt. Do not give or reconstruct the complete natural version yet. Complete this step when the learner can distinguish actual errors from naturalness improvements and has enough guidance to revise the answer.
+When the attempt needs changes, give one specific strength, a comprehensive list of meaningful issues in the learner's answer, 2–4 reusable chunks, and one revision prompt. Cover every identifiable grammar, tense, word-choice, collocation, clarity, and naturalness issue that would help the learner improve this answer; do not impose a fixed maximum, duplicate points, or invent low-value stylistic objections. Clearly distinguish errors from optional naturalness improvements. Do not give or reconstruct the complete natural version yet. Complete this step when the learner can distinguish actual errors from naturalness improvements and has enough guidance to revise the answer once.
 
-### 3. Require repair, then reveal the model
+### 3. Review one repair, then pause
 
-When step 2 identified adjustments, wait for the learner to revise the answer. After that revision attempt, give one complete natural spoken version, then continue with exactly one retrieval task. Choose one:
+When step 2 identified adjustments, wait for the learner to revise the answer once. After that revision attempt:
 
-- retell the idea without looking at the natural version;
-- express the same idea another way;
-- change one detail such as person, place, reason, or time;
-- answer a natural follow-up using one new chunk.
+1. Give one complete, improved natural spoken version immediately.
+2. List all remaining meaningful issues. If none remain, list the key language points the learner should retain instead.
+3. Do not ask the learner to revise, retell, transform, or answer again.
+4. Ask only for confirmation that the learner understands or accepts the feedback. Pause until they confirm.
 
-If the first attempt needs no essential adjustment, say so and provide a natural alternative before the retrieval task. If the learner cannot revise, return one level down the scaffold; reveal the model only after they try the scaffold, ask for the model, or cannot continue. Complete this step when the learner has attempted the requested repair, received the complete natural version, and independently reused at least one corrected pattern or chunk.
+If the first attempt needs no essential adjustment, say so, provide a natural alternative and key language points, then ask only for confirmation. If the learner cannot revise, return one level down the scaffold; reveal the model only after they try the scaffold, ask for the model, or cannot continue, then give the same remaining-issues-or-key-points summary and ask only for confirmation. Complete this step only when the learner has received the improved version and explicitly confirmed the feedback.
 
-### 4. Transfer to conversation
+### 4. Transfer to conversation, then give delayed feedback
 
-Move the same language into one adjacent real-life situation. For a daily session, continue for 3–5 short turns. Keep each coach turn to one natural response and one question so the learner owns most of the conversation.
+Only after the learner explicitly confirms step 3, move the same language into one adjacent real-life situation. For a daily session, continue for 3–5 short turns. Keep each coach turn to one natural response and one question so the learner owns most of the conversation.
 
-Complete this step when the learner has used the target language in a new question or scenario. For a one-off correction request, make this transfer invitation optional and end after one prompt.
+Keep every learner reply from the start of this conversation stage in one feedback window. After the final turn, read [references/feedback-rubric.md](references/feedback-rubric.md) and give one comprehensive delayed-feedback message that:
 
-### 5. Close compactly
+1. Reviews every learner reply in the window, not only the most recent reply.
+2. Covers all meaningful grammar, tense, word-choice, collocation, clarity, and naturalness issues; group them by learner turn or idea so their source stays clear.
+3. Ends the session immediately after the feedback. Do not ask for another revision, confirmation, retelling, transfer, or follow-up answer.
 
-Summarize at most three takeaways:
+For a one-off correction request, make transfer optional and end after step 3 when the learner does not choose it. Complete this step only when the learner has used the target language in conversation and every reply in the feedback window has been reviewed.
 
-- one pattern to keep;
-- one correction to remember;
-- one chunk to reuse tomorrow.
+### 5. Close with a complete session recap
 
-End with a specific next-day cue when the learner finishes a session. Describe progress evidenced in the conversation, and claim stored practice history only when a persistent record is available.
+Make the final delayed-feedback message the session close. Summarize the whole session, including the initial repair and the conversation feedback window. List:
+
+- all key grammar patterns worth retaining;
+- all meaningful error corrections;
+- reusable spoken chunks when helpful.
+
+Deduplicate repeated issues and group related points, but do not impose a fixed maximum that could omit a meaningful correction. End with a brief closing statement rather than a question or another exercise. Describe progress evidenced in the conversation, and claim stored practice history only when a persistent record is available.
 
 ## Calibrate difficulty
 
